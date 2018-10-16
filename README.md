@@ -1,4 +1,4 @@
-# setup-sql-server
+# SQL Database: Use Visual Studio Code to connect and query data.
 This script follow [here](https://docs.microsoft.com/en-us/sql/linux/quickstart-install-connect-ubuntu?view=sql-server-2017)
 # Step 1
 ```bash
