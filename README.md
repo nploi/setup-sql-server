@@ -33,5 +33,6 @@ source ~/.bashrc
 - Copy this line `ext install ms-mssql.mssql`
 - Open vscode `code`
 - Ctrl + p, Ctrl + v and Enter
-- Next: 
+- Next
+
 ![step3](step3.gif)
