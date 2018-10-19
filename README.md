@@ -1,7 +1,9 @@
 # SQL Database: Use Visual Studio Code to connect and query data.
-## This script follow [here](https://docs.microsoft.com/en-us/sql/linux/quickstart-install-connect-ubuntu?view=sql-server-2017)
-# Step 1: Install mssql-server
-- Copy and execute on terminal
+## Instructions
+- Step 1: Install mssql-server
+    - Copy and execute on terminal
+    - This script follow [here](https://docs.microsoft.com/en-us/sql/linux/quickstart-install-connect-ubuntu?view=sql-server-2017)
+    - If you want to install on Windows, you can follow [here](https://www.youtube.com/watch?v=yasfZuou3zI&t=413s)
 ```bash
 # Install wget
 sudo apt-get install wget
@@ -13,12 +15,12 @@ add-apt-repository "$(wget -qO- https://packages.microsoft.com/config/ubuntu/16.
 sudo apt-get update -y 
 sudo apt-get install -y mssql-server -y
 /opt/mssql/bin/mssql-conf setup
-
 ```
-# Step 2: Using SQL with VS Code
-- Copy this line `ext install ms-mssql.mssql`
-- Open vscode `code`
-- Ctrl + p, Ctrl + v and Enter
-- Next
+
+- Step 2: Using SQL with VS Code
+    - Copy this line `ext install ms-mssql.mssql`
+    - Open vscode `code`
+    - Ctrl + p, Ctrl + v and Enter
+    - Next
 
 ![demo](demo.gif)
