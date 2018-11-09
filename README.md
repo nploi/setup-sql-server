@@ -9,12 +9,12 @@
 sudo apt-get install wget
 # Install SQL Server
 wget -qO- https://packages.microsoft.com/keys/microsoft.asc | sudo apt-key add - # Import the public repository GPG keys
-add-apt-repository "$(wget -qO- https://packages.microsoft.com/config/ubuntu/16.04/mssql-server-2017.list)" # Register the Microsoft SQL Server Ubunt$
+sudo add-apt-repository "$(wget -qO- https://packages.microsoft.com/config/ubuntu/16.04/mssql-server-2017.list)" # Register the Microsoft SQL Server Ubunt$
 
 # Run the following commands to install SQL Server
 sudo apt-get update -y 
 sudo apt-get install -y mssql-server -y
-/opt/mssql/bin/mssql-conf setup
+sudo /opt/mssql/bin/mssql-conf setup
 ```
 
 - Step 2: Using SQL with VS Code
